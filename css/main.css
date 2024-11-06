@@ -70,6 +70,18 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .bg-defult {
   background: #3c9cfd !important; }
 
+.custom-img {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically if the container has a height */
+    padding: 20px; /* Optional: Add padding */
+}
+
+.custom-img img {
+    max-width: 100%; /* Make the image responsive */
+    width: 50%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
 /* ==========================================================================
    Section Title
    ========================================================================== */
